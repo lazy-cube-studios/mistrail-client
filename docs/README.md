@@ -1,4 +1,4 @@
-## What is Terrain?
+## What is Terrain and how to generate it?
 
 - It is a `Plane Geometory Mesh` but if we use this mesh as it is, then it will not look real because real terrain is
   not ideally flat.
@@ -8,3 +8,7 @@
   which is `heightmap`. These are just **gray scale** images in which every pixel is mapped to the corresponding
   displacement in the mesh. Magnitude of the displacement is directly proportional to intensity of the pixel and
   direction of the displacement can be determined by shade (Lighter or Darker).
+
+> [!IMPORTANT]
+> **For this project we don't need a dynamic terrain generation, which means the whole terrain will be created in 3D
+> graphics software like `Blender`**
